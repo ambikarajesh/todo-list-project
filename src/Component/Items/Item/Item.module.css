@@ -1,0 +1,41 @@
+.Item {
+    margin:5px;
+    padding:1px;
+    width:80%;
+    font-family: sans-serif;      
+}
+.Item input, .Cockpit button{
+    padding:5px;
+    margin:5px 20px;
+    width:50%;
+    text-align: left;
+    border:none;
+    text-transform: capitalize;
+    letter-spacing: 1.2px;
+    font-weight: bold;
+    font-size:14px;
+    background-color: #666;
+    color:#ccc;    
+}
+.Item button{
+    width:10%;
+    height:25px;
+    padding:5px;
+    font-size:10px;
+    background-color: #666;
+    font-weight: bold;
+    color:#ccc;
+    border:none;
+    border-radius: 50%;
+    text-align: center;
+}
+.Item button:hover{
+    color: #E80F26;
+    border:none;
+}
+
+@media(max-width:700px){
+    .Item input{
+            width:80%;
+    }
+}

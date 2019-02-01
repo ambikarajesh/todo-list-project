@@ -1,0 +1,20 @@
+.Cockpit {
+    margin:10px auto;
+    padding:5px 10px;
+    width:80%;
+    font-family: sans-serif;
+}
+.Cockpit input, .Cockpit button{
+    padding:10px;
+    margin:10px;
+    width:65%;
+    font-size:15px;
+}
+.Cockpit button{
+    width:75px;
+    font-weight: bold;
+    background-color: #068249;
+    color:#fff;
+    font-size:18px;
+    border:none;
+}
